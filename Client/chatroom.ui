@@ -27,7 +27,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -54,31 +54,11 @@ color: rgb(0, 170, 255)</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLineEdit" name="user_port">
-      <property name="geometry">
-       <rect>
-        <x>280</x>
-        <y>690</y>
-        <width>291</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">background-color:rgb(255, 255, 255);
-font: 15pt &quot;Cambria&quot;;</string>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="placeholderText">
-       <string>5050</string>
-      </property>
-     </widget>
      <widget class="QLineEdit" name="user_name">
       <property name="geometry">
        <rect>
         <x>280</x>
-        <y>550</y>
+        <y>620</y>
         <width>291</width>
         <height>61</height>
        </rect>
@@ -98,7 +78,7 @@ font: 15pt &quot;Cambria&quot;;</string>
       <property name="geometry">
        <rect>
         <x>40</x>
-        <y>620</y>
+        <y>690</y>
         <width>221</width>
         <height>61</height>
        </rect>
@@ -119,7 +99,7 @@ color: rgb(0, 170, 255)</string>
       <property name="geometry">
        <rect>
         <x>280</x>
-        <y>620</y>
+        <y>690</y>
         <width>291</width>
         <height>61</height>
        </rect>
@@ -138,7 +118,7 @@ font: 15pt &quot;Cambria&quot;;</string>
      <widget class="QPushButton" name="entrance_btn">
       <property name="geometry">
        <rect>
-        <x>270</x>
+        <x>280</x>
         <y>770</y>
         <width>291</width>
         <height>61</height>
@@ -159,7 +139,7 @@ color: rgb(0, 170, 255)
       <property name="geometry">
        <rect>
         <x>40</x>
-        <y>550</y>
+        <y>620</y>
         <width>221</width>
         <height>61</height>
        </rect>
@@ -176,27 +156,6 @@ color: rgb(0, 170, 255)</string>
        <set>Qt::AlignCenter</set>
       </property>
      </widget>
-     <widget class="QLabel" name="label_7">
-      <property name="geometry">
-       <rect>
-        <x>40</x>
-        <y>690</y>
-        <width>221</width>
-        <height>61</height>
-       </rect>
-      </property>
-      <property name="styleSheet">
-       <string notr="true">
-font: 25pt &quot;Cambria&quot;;
-color: rgb(0, 170, 255)</string>
-      </property>
-      <property name="text">
-       <string>포트</string>
-      </property>
-      <property name="alignment">
-       <set>Qt::AlignCenter</set>
-      </property>
-     </widget>
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
@@ -207,23 +166,487 @@ color: rgb(0, 170, 255)</string>
        </rect>
       </property>
       <property name="text">
-       <string>TextLabel</string>
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Users/kiot/.designer/backup/gb.jpg</pixmap>
       </property>
      </widget>
      <zorder>label</zorder>
      <zorder>label_4</zorder>
-     <zorder>user_port</zorder>
      <zorder>user_name</zorder>
      <zorder>label_6</zorder>
      <zorder>user_ip</zorder>
      <zorder>entrance_btn</zorder>
      <zorder>label_5</zorder>
-     <zorder>label_7</zorder>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>Tab 2</string>
      </attribute>
+     <widget class="QLabel" name="twochat_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>280</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Users/kiot/.designer/backup/four.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="userList_2">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>630</y>
+        <width>401</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255);
+font: 15pt &quot;Cambria&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="threechat_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>560</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Users/kiot/.designer/backup/five.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="threechat_btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>760</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255);
+background-color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>노르웨이 숲 채팅방</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="onechat_title">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>10</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)</string>
+      </property>
+      <property name="text">
+       <string>스코티시폴드 채팅방</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="userList_4">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>70</y>
+        <width>401</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255);
+font: 15pt &quot;Cambria&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="onechat_label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>331</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../../Users/kiot/.designer/backup/one.jpg</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="twochat_btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>490</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255);
+background-color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>코리안숏헤어 채팅방</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="threechat_title">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>560</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)</string>
+      </property>
+      <property name="text">
+       <string>노르웨이 숲 채팅방</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="twochat_title">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>280</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)</string>
+      </property>
+      <property name="text">
+       <string>코리안숏헤어 채팅방</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="onechat_btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>321</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255);
+background-color:rgb(255, 255, 255);
+}</string>
+      </property>
+      <property name="text">
+       <string>스코티시폴드 채팅방</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="userList_3">
+      <property name="geometry">
+       <rect>
+        <x>370</x>
+        <y>350</y>
+        <width>401</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255);
+font: 15pt &quot;Cambria&quot;;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Tab 3</string>
+     </attribute>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>291</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>채팅방 넘버에 따른 이미지 들어가게</string>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="userList">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>311</width>
+        <height>311</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255);
+font: 15pt &quot;Cambria&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="msg_lienEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>660</y>
+        <width>461</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 25pt &quot;Cambria&quot;;</string>
+      </property>
+      <property name="placeholderText">
+       <string>메세지를 작성 해 주세요</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>311</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 20px;
+font: 35pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)</string>
+      </property>
+      <property name="text">
+       <string>Cat Talk</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="msg_send_btn">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>670</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+background-color:rgb(255, 255, 255);
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)
+}</string>
+      </property>
+      <property name="text">
+       <string>전송</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="chat_exit_btn">
+      <property name="geometry">
+       <rect>
+        <x>500</x>
+        <y>740</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+background-color:rgb(255, 255, 255);
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)
+}</string>
+      </property>
+      <property name="text">
+       <string>채팅방 나가기</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>280</y>
+        <width>311</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+font: 25pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)</string>
+      </property>
+      <property name="text">
+       <string>현재 채팅 유저</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="chat">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>30</y>
+        <width>381</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 255, 255);
+font: 15pt &quot;Cambria&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="msg_history_btn">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>740</y>
+        <width>291</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 20px;
+background-color:rgb(255, 255, 255);
+font: 20pt &quot;Cambria&quot;;
+color: rgb(0, 170, 255)
+}</string>
+      </property>
+      <property name="text">
+       <string>메세지 히스토리</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>Tab 4</string>
+     </attribute>
+     <widget class="QTableWidget" name="message_table">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>320</y>
+        <width>731</width>
+        <height>331</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>message</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>time</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>40</y>
+        <width>451</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>조회를 원하시는 메세지의 아이디 혹은 날짜를 클릭하세요.</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="history_table">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>651</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>user</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>date</string>
+       </property>
+      </column>
+     </widget>
     </widget>
    </widget>
   </widget>
